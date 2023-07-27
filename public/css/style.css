@@ -1,0 +1,42 @@
+/* Завдання 1 */
+.text-box > h3:first-child {
+    color: pink;
+}
+
+#greycol {
+    color: gray;
+}
+
+.text-box > div > p {
+    color: red;
+}
+
+div ~ p:not(.yellow) {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+/* Завдання 2 */
+#monday > li:first-child > a:hover {
+    color: red;
+}
+
+#tuesday > li:nth-child(2n) > a:focus {
+    color: blue;
+}
+
+#wednesday > li:last-child > button:disabled {
+    background-color: red;
+    color: white;
+}
+
+#thursday > li:nth-child(-n + 3) > span:lang(de) {
+    border: 2px solid green;
+}
+
+#friday > li:nth-child(n + 3) > a:visited {
+    color: lime;
+}
